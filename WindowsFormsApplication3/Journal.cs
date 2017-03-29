@@ -8,8 +8,8 @@ namespace WindowsFormsApplication3
 {
     class Journal
     {
-        public string nameJournal;
-        public string numberEditionJournals;
-        public int numberOfPagesJournals;
+        public string nameJournal { get; set; }
+        public string numberEditionJournals { get; set; }
+        public int numberOfPagesJournals { get; set; }
     }
 }
